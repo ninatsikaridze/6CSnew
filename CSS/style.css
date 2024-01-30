@@ -1,0 +1,63 @@
+/* Background image */
+.bg{
+    height:930px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../Images/Background.jpg)
+    
+}
+
+
+.mario{
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    
+    animation: main-hero 5s infinite  ;
+    animation-timing-function:steps(20)
+   
+}
+.logo{
+    height: 160px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    animation: logo 8s infinite linear;
+}
+
+@keyframes main-hero {
+        0% {bottom: 50px; left: 0px;}
+        5% {bottom: 80px; left: 50px;}
+        10% {bottom: 90px;; left: 100px;}
+        15% {bottom: 100px; left: 200px;}
+        20% {bottom: 150px; left: 250px;}
+        25% {bottom: 200px; left: 300px;}
+        30% {bottom: 250px; left: 350px;}
+        35% {bottom: 300px; left: 400px;}
+        45% {bottom: 380px; left:450px;}
+        50% {bottom: 420px; left:500px;}
+        55% {bottom: 450px; left:550px;}
+        60% {bottom: 480px; left:600px;}
+        65% {bottom: 500px; left: 650px;}
+        70% {bottom: 550px; left:700px;}
+        75% {bottom: 580px; left:750px;}
+        80% {bottom: 590px; left:800px;}
+        85% {bottom: 600px; left:850px;}
+        90% {bottom: 590px; left:900px;}
+        95% {bottom: 550px; left:1000px;}
+        100% {bottom:520px; left:1050px;}
+    
+}
+
+@keyframes logo {
+    from{
+        top: 90px;
+        right: 20px;
+    }
+    to{
+        top: 70px;
+        right: 560px;
+    }
+  
+}
