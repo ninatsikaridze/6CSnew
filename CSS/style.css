@@ -15,7 +15,7 @@
     bottom: 0px;
     
     animation: main-hero 5s infinite  ;
-    animation-timing-function:steps(20)
+    animation-timing-function:steps(50)
    
 }
 .logo{
